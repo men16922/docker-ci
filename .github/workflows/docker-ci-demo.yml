@@ -1,4 +1,4 @@
-ame: Push Docker Image to Docker Hub # workflow 이름 지정
+name: Push Docker Image to Docker Hub # workflow 이름 지정
 on: # 동작 조건 지정 # branch, tags가 push되면 동작하도록
   push:
     branches:
